@@ -1,0 +1,26 @@
+server:
+  servlet:
+    context-path: /ironbit
+# =================== Documentación OpenAPI 3.0 =================================== 
+ironbi:
+  api:
+    title: Ejercicio practico Ironbit
+    version: V 1.0
+    description: >-
+      Api para la gestion de epleados
+  developer:
+    name: Karla Montserrat Camacho Domingez
+    email: 
+    url:
+# =================== Configuración de logs==== ===================================
+logging:
+  level:
+    org:
+      springframework:
+        web: DEBUG
+        boot:
+          web:
+            servlet: DEBUG
+  pattern:
+    console: "%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n"
+

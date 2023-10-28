@@ -1,0 +1,86 @@
+# Archivos y directorios generados por IDEs
+.idea/
+*.iml
+
+# Directorio de compilación
+/target/
+
+# Logs y archivos de registro
+*.log
+
+# Archivos de propiedades del sistema
+*.properties
+
+# Archivos de dependencias de Maven
+# Si usas Gradle, ajusta esto en consecuencia
+/.mvn/
+/lib/
+
+# Directorios y archivos generados por Gradle
+build/
+.gradle/
+gradle-wrapper.jar
+!gradle-wrapper.jar.sha256
+
+# Archivos de configuración específicos de IDE
+/.settings/
+.settings/
+
+# Archivos de Eclipse
+.classpath
+.project
+.metadata/
+bin/
+
+# Archivos de NetBeans
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/nbactions.xml
+/nb-configuration.xml
+
+# Archivos de IntelliJ IDEA
+/out/
+/*.iml
+/*.iws
+/*.ipr
+
+# Archivos de compilación de Eclipse
+/.apt_generated/
+/apt_generated/
+/.factorypath
+
+# Archivos de construcción de Eclipse
+.classpath
+.project
+
+# Directorios y archivos de compilación de NetBeans
+/build/
+/nbbuild/
+/nbbuild/
+/nbdeploy/
+/dist/
+/nbactions.xml
+/nb-configuration.xml
+
+# Directorio .vscode generado por Visual Studio Code
+.vscode/
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+bin-debug/
+bin-release/
+.metadata/
+out/
+gen/
+
+# Maven Wrapper
+.mvn/
+mvnw
+mvnw.cmd
+!mvnw.sha1

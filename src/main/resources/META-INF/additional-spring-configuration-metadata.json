@@ -1,0 +1,37 @@
+{"properties": [
+  {
+    "name": "ironbi.api.title",
+    "type": "java.lang.String",
+    "description": "A description for 'ironbi.api.title'"
+  },
+  {
+    "name": "ironbi.api.version",
+    "type": "java.lang.String",
+    "description": "A description for 'ironbi.api.version'"
+  },
+  {
+    "name": "ironbi.api.description",
+    "type": "java.lang.String",
+    "description": "A description for 'ironbi.api.description'"
+  },
+  {
+    "name": "ironbi.developer.name",
+    "type": "java.lang.String",
+    "description": "A description for 'ironbi.developer.name'"
+  },
+  {
+    "name": "ironbi.developer.email",
+    "type": "java.lang.String",
+    "description": "A description for 'ironbi.developer.email'"
+  },
+  {
+    "name": "ironbi.developer.url",
+    "type": "java.lang.String",
+    "description": "A description for 'ironbi.developer.url'"
+  },
+  {
+    "name": "logging.org.springframework.web",
+    "type": "java.lang.String",
+    "description": "A description for 'logging.org.springframework.web'"
+  }
+]}
