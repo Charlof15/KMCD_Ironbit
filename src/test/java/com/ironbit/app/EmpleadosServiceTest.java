@@ -17,7 +17,6 @@ import java.util.Optional;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.junit.runner.RunWith;
 import org.mockito.junit.MockitoJUnitRunner;
 import org.modelmapper.ModelMapper;
 import org.springframework.http.HttpStatus;
@@ -27,7 +26,6 @@ import com.ironbit.app.entity.Empleado;
 import com.ironbit.app.repository.EmpleadosRepository;
 import com.ironbit.app.service.EmpleadosService;
 
-@RunWith(MockitoJUnitRunner.class)
 class EmpleadosServiceTest {
 	private EmpleadosRepository empleadoRepository;
     private ModelMapper modelMapper;

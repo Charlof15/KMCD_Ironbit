@@ -7,7 +7,6 @@ import static org.mockito.Mockito.when;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.junit.runner.RunWith;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 import org.mockito.junit.MockitoJUnitRunner;
@@ -18,7 +17,6 @@ import com.ironbit.app.controller.BitacoraController;
 import com.ironbit.app.repository.BitacoraRepository;
 import com.ironbit.app.service.BitacoraService;
 
-@RunWith(MockitoJUnitRunner.class)
 class BitacoraControllerTest {
 	private BitacoraController bitacoraConytroller;
 

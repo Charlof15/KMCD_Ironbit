@@ -12,7 +12,6 @@ import java.util.List;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
@@ -24,7 +23,6 @@ import com.ironbit.app.entity.Bitacora;
 import com.ironbit.app.repository.BitacoraRepository;
 import com.ironbit.app.service.BitacoraService;
 
-@RunWith(MockitoJUnitRunner.class)
 class BitacoraServiceTest {
 	@InjectMocks
     private BitacoraService bitacoraService;

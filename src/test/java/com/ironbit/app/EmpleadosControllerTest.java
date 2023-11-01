@@ -12,7 +12,6 @@ import java.util.Map;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
@@ -25,7 +24,6 @@ import com.ironbit.app.entity.Empleado;
 import com.ironbit.app.service.BitacoraService;
 import com.ironbit.app.service.EmpleadosService;
 
-@RunWith(MockitoJUnitRunner.class)
 class EmpleadosControllerTest {
 
 	@InjectMocks
